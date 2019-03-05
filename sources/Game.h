@@ -3,11 +3,10 @@
 
 #include <stdio.h>
 #include "SDL.h"
+#include "SDL_image.h"
 
 class Game {
 public:
-	Game();
-	~Game();
 
 	void init(const char* title, int x, int y, int width, int height, bool fullscreen);
 	void handleEvents();

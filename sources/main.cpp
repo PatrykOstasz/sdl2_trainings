@@ -8,7 +8,6 @@ int main(int argc, char** argv) {
     uint32_t frameStart;
     int frameTime;
 
-
     Game* game = new Game();
 	game->init("Hej", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, false);
 	while (game->running()) {

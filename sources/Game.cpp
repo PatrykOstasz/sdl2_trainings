@@ -1,17 +1,11 @@
 #include "Game.h"
-#include "SDL_image.h"
+
+#include "TextureManager.h"
 
 #include <iostream>
 
 SDL_Texture* playerTex;
-SDL_Rect srcR, destR;
-Game::Game() {
-
-}
-
-Game::~Game() {
-
-}
+//SDL_Rect srcR, destR;
 
 void Game::init(const char* title, int x, int y, int width, int height, bool fullscreen) {
 	int flags = 0;
@@ -38,9 +32,7 @@ void Game::init(const char* title, int x, int y, int width, int height, bool ful
 	} else {
 		isRunning = false;
 	}
-    SDL_Surface* tmpSurface = IMG_Load("./assets/mario_one.jpg");
-	playerTex = SDL_CreateTextureFromSurface(renderer, tmpSurface);
-	SDL_FreeSurface(tmpSurface);
+    playerTex = TextureManager::LoadTexture("assets/chrono.png", renderer);
 }
 void Game::handleEvents() {
 	SDL_Event event;
@@ -54,13 +46,13 @@ void Game::handleEvents() {
 	}
 }
 void Game::update() {
-    destR.h = 64;
-    destR.w = 64;
-    destR.x++;
+    //destR.h = 64;
+    //destR.w = 64;
+    //destR.x++;
 }
 void Game::render() {
 	SDL_RenderClear(renderer);
-	SDL_RenderCopy(renderer, playerTex, NULL, &destR);
+	SDL_RenderCopy(renderer, playerTex, NULL, NULL);
 	SDL_RenderPresent(renderer);
 }
 void Game::clean() {
