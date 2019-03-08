@@ -1,5 +1,7 @@
 #include "Game.h"
 
+#include <stdint.h>
+
 int main(int argc, char** argv) {
 
     const int FPS = 60;

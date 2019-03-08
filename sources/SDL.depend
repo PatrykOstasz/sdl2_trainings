@@ -701,17 +701,18 @@
 	"begin_code.h"
 	"close_code.h"
 
-1551735799 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game.cpp
+1552085238 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game.cpp
 	"Game.h"
-	"SDL_image.h"
 	<iostream>
+	"GameObject.h"
 
-1551731685 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game.h
-	<stdio.h>
+1552085366 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game.h
 	"SDL.h"
+	"SDL_image.h"
 
-1551735993 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\main.cpp
+1552085264 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\main.cpp
 	"Game.h"
+	<stdint.h>
 
 1551787038 source:c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\game.cpp
 	"Game.h"
@@ -1079,4 +1080,19 @@
 	"TextureManager.h"
 	"SDL_surface.h"
 	"SDL_image.h"
+
+1551998213 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\texturemanager.h
+
+1551998213 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\texturemanager.cpp
+	"TextureManager.h"
+	"SDL_surface.h"
+	"SDL_image.h"
+
+1552084707 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\gameobject.cpp
+	"GameObject.h"
+	"TextureManager.h"
+	"SDL_render.h"
+
+1552084505 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\gameobject.h
+	"SDL_rect.h"
 

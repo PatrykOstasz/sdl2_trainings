@@ -1,11 +1,8 @@
 #include "Game.h"
 
-#include "TextureManager.h"
-
 #include <iostream>
 
-SDL_Texture* playerTex;
-//SDL_Rect srcR, destR;
+#include "GameObject.h"
 
 void Game::init(const char* title, int x, int y, int width, int height, bool fullscreen) {
 	int flags = 0;
@@ -32,7 +29,7 @@ void Game::init(const char* title, int x, int y, int width, int height, bool ful
 	} else {
 		isRunning = false;
 	}
-    playerTex = TextureManager::LoadTexture("assets/chrono.png", renderer);
+    player = new GameObject("assets/megaman.png", renderer, 20, 20);
 }
 void Game::handleEvents() {
 	SDL_Event event;
@@ -46,16 +43,15 @@ void Game::handleEvents() {
 	}
 }
 void Game::update() {
-    //destR.h = 64;
-    //destR.w = 64;
-    //destR.x++;
+    player->update();
 }
 void Game::render() {
 	SDL_RenderClear(renderer);
-	SDL_RenderCopy(renderer, playerTex, NULL, NULL);
+	player->render();
 	SDL_RenderPresent(renderer);
 }
 void Game::clean() {
+    delete player;
 	SDL_DestroyWindow(window);
 	SDL_DestroyRenderer(renderer);
 	SDL_Quit();
