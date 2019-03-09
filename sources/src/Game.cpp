@@ -1,8 +1,15 @@
-#include "Game.h"
+#include "../include/Game.h"
 
 #include <iostream>
 
-#include "GameObject.h"
+#include "../include/GameObject.h"
+#include "../include/TileMap.h"
+
+SDL_Renderer* Game::renderer = nullptr;
+
+SDL_Renderer* Game::getRenderer() {
+    return renderer;
+}
 
 void Game::init(const char* title, int x, int y, int width, int height, bool fullscreen) {
 	int flags = 0;
@@ -23,13 +30,12 @@ void Game::init(const char* title, int x, int y, int width, int height, bool ful
 			SDL_SetRenderDrawColor(renderer, 0, 0, 0, 1);
 			std::cout << "Renderer created!" << std::endl;
 		}
-
 		isRunning = true;
-
 	} else {
 		isRunning = false;
 	}
-    player = new GameObject("assets/megaman.png", renderer, 20, 20);
+
+	initScene();
 }
 void Game::handleEvents() {
 	SDL_Event event;
@@ -47,6 +53,7 @@ void Game::update() {
 }
 void Game::render() {
 	SDL_RenderClear(renderer);
+	tileMap->draw();
 	player->render();
 	SDL_RenderPresent(renderer);
 }
@@ -59,4 +66,9 @@ void Game::clean() {
 }
 bool Game::running() {
 	return isRunning;
+}
+
+void Game::initScene() {
+    player = new GameObject("assets/megaman.png", 20, 20);
+    tileMap = new TileMap(20, 25);
 }

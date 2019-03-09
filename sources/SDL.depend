@@ -1096,3 +1096,39 @@
 1552084505 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\gameobject.h
 	"SDL_rect.h"
 
+1552174580 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\gameobject.cpp
+	"../include/GameObject.h"
+	"../include/Game.h"
+	"../include/TextureManager.h"
+
+1552171974 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\include\gameobject.h
+	"SDL_rect.h"
+
+1552173933 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\include\texturemanager.h
+	"SDL_rect.h"
+
+1552171408 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\main.cpp
+	"../include/Game.h"
+	<stdint.h>
+
+1552174717 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\include\game.h
+	"SDL.h"
+	"SDL_image.h"
+
+1552174446 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\texturemanager.cpp
+	"../include/TextureManager.h"
+	"../include/Game.h"
+
+1552174525 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\tilemap.cpp
+	"../include/TileMap.h"
+	"../include/TextureManager.h"
+
+1552173475 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\include\tilemap.h
+	"SDL_rect.h"
+
+1552174806 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\game.cpp
+	"../include/Game.h"
+	<iostream>
+	"../include/GameObject.h"
+	"../include/TileMap.h"
+

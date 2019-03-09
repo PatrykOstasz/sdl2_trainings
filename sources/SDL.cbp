@@ -40,20 +40,26 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="Game.cpp" />
-		<Unit filename="Game.h" />
 		<Unit filename="SDL2.dll" />
 		<Unit filename="SDL2_image.dll" />
-		<Unit filename="TextureManager.cpp" />
-		<Unit filename="TextureManager.h" />
 		<Unit filename="assets/celes_sprite.png" />
 		<Unit filename="assets/chrono.png" />
 		<Unit filename="assets/mario_one.jpg" />
+		<Unit filename="assets/megaman.png" />
+		<Unit filename="assets/tiles/water.png" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/GameObject.h" />
+		<Unit filename="include/TextureManager.h" />
+		<Unit filename="include/TileMap.h" />
 		<Unit filename="libjpeg-9.dll" />
 		<Unit filename="libpng16-16.dll" />
 		<Unit filename="libtiff-5.dll" />
 		<Unit filename="libwebp-7.dll" />
-		<Unit filename="main.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/GameObject.cpp" />
+		<Unit filename="src/TextureManager.cpp" />
+		<Unit filename="src/TileMap.cpp" />
+		<Unit filename="src/main.cpp" />
 		<Unit filename="zlib1.dll" />
 		<Extensions>
 			<code_completion />

@@ -2,9 +2,10 @@
 #define GAME_H_
 
 #include "SDL.h"
-#include "SDL_image.h"
+#include "SDL_image.h";
 
 class GameObject;
+class TileMap;
 
 class Game {
 public:
@@ -14,12 +15,17 @@ public:
 	void render();
 	void clean();
 	bool running();
+	static SDL_Renderer* getRenderer();
 
 private:
+    void initScene();
+
 	bool isRunning;
 	SDL_Window* window;
-	SDL_Renderer* renderer;
+
+	static SDL_Renderer* renderer;
 	GameObject* player;
+	TileMap* tileMap;
 };
 
 #endif GAME_H_
