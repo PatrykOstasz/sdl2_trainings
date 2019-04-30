@@ -47,6 +47,8 @@
 		<Unit filename="assets/mario_one.jpg" />
 		<Unit filename="assets/megaman.png" />
 		<Unit filename="assets/tiles/water.png" />
+		<Unit filename="include/Components.h" />
+		<Unit filename="include/ECS.h" />
 		<Unit filename="include/Game.h" />
 		<Unit filename="include/GameObject.h" />
 		<Unit filename="include/TextureManager.h" />

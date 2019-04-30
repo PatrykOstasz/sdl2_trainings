@@ -353,7 +353,7 @@
 1551730796 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl\main.cpp
 	"Game.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -386,12 +386,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_main.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -420,34 +420,34 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_config.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_config.h
 	"SDL_platform.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_platform.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\begin_code.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\begin_code.h
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\close_code.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\close_code.h
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_assert.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
 	<mbarrier.h>
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_audio.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -457,24 +457,24 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_error.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_endian.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_thread.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -485,18 +485,18 @@
 	<stdlib.h>
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -511,7 +511,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_events.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -525,7 +525,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_video.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -533,13 +533,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_pixels.h
 	"SDL_stdinc.h"
 	"SDL_endian.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rect.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -547,7 +547,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_surface.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -556,11 +556,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -568,27 +568,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -596,11 +596,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_quit.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -608,66 +608,66 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_touch.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_hints.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_log.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_power.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_render.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_sensor.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_shape.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_shape.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -676,7 +676,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_system.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -684,18 +684,18 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_timer.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_version.h
+1541002144 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540997982 d:\patryk\moje dokumenty\trainings-tutorials\sdl\i686-w64-mingw32\include\sdl2\sdl_image.h
+1541001582 d:\patryk\moje dokumenty\trainings-tutorials\sdl\i686-w64-mingw32\include\sdl2\sdl_image.h
 	"SDL.h"
 	"SDL_version.h"
 	"begin_code.h"
@@ -1096,37 +1096,37 @@
 1552084505 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\gameobject.h
 	"SDL_rect.h"
 
-1552174580 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\gameobject.cpp
+1552178180 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\gameobject.cpp
 	"../include/GameObject.h"
 	"../include/Game.h"
 	"../include/TextureManager.h"
 
-1552171974 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\include\gameobject.h
+1552175574 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\include\gameobject.h
 	"SDL_rect.h"
 
-1552173933 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\include\texturemanager.h
+1552177533 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\include\texturemanager.h
 	"SDL_rect.h"
 
-1552171408 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\main.cpp
+1552175008 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\main.cpp
 	"../include/Game.h"
 	<stdint.h>
 
-1552174717 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\include\game.h
+1556583405 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\include\game.h
 	"SDL.h"
 	"SDL_image.h"
 
-1552174446 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\texturemanager.cpp
+1552178046 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\texturemanager.cpp
 	"../include/TextureManager.h"
 	"../include/Game.h"
 
-1552174525 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\tilemap.cpp
+1552178700 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\tilemap.cpp
 	"../include/TileMap.h"
 	"../include/TextureManager.h"
 
-1552173475 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\include\tilemap.h
+1552177075 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\include\tilemap.h
 	"SDL_rect.h"
 
-1552174806 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\game.cpp
+1552178406 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\src\game.cpp
 	"../include/Game.h"
 	<iostream>
 	"../include/GameObject.h"
