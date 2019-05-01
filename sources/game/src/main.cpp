@@ -3,7 +3,6 @@
 #include <stdint.h>
 
 int main(int argc, char** argv) {
-
     const int FPS = 60;
     const int frameDelay = 1000 / FPS;
 
@@ -13,7 +12,6 @@ int main(int argc, char** argv) {
     Game* game = new Game();
 	game->init("Hej", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, false);
 	while (game->running()) {
-
         frameStart = SDL_GetTicks();
 
 		game->handleEvents();
@@ -26,5 +24,6 @@ int main(int argc, char** argv) {
 		}
 	}
 	game->clean();
+	delete game;
 	return 0;
 }

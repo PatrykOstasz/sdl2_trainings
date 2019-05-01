@@ -1132,3 +1132,86 @@
 	"../include/GameObject.h"
 	"../include/TileMap.h"
 
+1556722264 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\game.cpp
+	"../include/Game.h"
+	<iostream>
+	"../include/GameObject.h"
+	"../include/TileMap.h"
+
+1556583405 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\include\game.h
+	"SDL.h"
+	"SDL_image.h"
+
+1552175574 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\include\gameobject.h
+	"SDL_rect.h"
+
+1552177075 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\include\tilemap.h
+	"SDL_rect.h"
+
+1552178180 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\gameobject.cpp
+	"../include/GameObject.h"
+	"../include/Game.h"
+	"../include/TextureManager.h"
+
+1552177533 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\include\texturemanager.h
+	"SDL_rect.h"
+
+1556730131 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\main.cpp
+	"../include/Game.h"
+	<stdint.h>
+
+1552178046 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\texturemanager.cpp
+	"../include/TextureManager.h"
+	"../include/Game.h"
+
+1556722191 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\tilemap.cpp
+	"../include/TileMap.h"
+	"../include/TextureManager.h"
+
+1556738069 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\src\positioncomponent.cpp
+	"../include/PositionComponent.h"
+
+1556738059 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\include\positioncomponent.h
+	"ECS.h"
+
+1556745374 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\include\ecs.h
+	<algorithm>
+	<array>
+	<bitset>
+	<memory>
+	<vector>
+
+1556738069 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\positioncomponent.cpp
+	"../include/PositionComponent.h"
+
+1556745914 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\positioncomponent.h
+	"Component.h"
+
+1556749801 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\component.h
+
+1556745917 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\component.cpp
+	"Component.h"
+
+1556747764 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\entities\src\entity.cpp
+	"Entity.h"
+	"../../components/include/Component.h"
+
+1556749327 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\systemmanager.cpp
+	"SystemManager.h"
+	<algorithm>
+	"entities/include/Entity.h"
+
+1556748760 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\systemmanager.h
+	<algorithm>
+	<array>
+	<bitset>
+	<memory>
+	<vector>
+
+1556749591 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\entities\include\entity.h
+	<array>
+	<bitset>
+	<memory>
+	<vector>
+	"../../components/include/Component.h"
+

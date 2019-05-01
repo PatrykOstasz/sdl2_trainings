@@ -8,11 +8,14 @@
 		<Build>
 			<Target title="Debug">
 				<Option platforms="Windows;" />
-				<Option output="bin/Debug/SDL" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Debug/" />
+				<Option output="solution/debug/SDL" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../sources" />
+				<Option object_output="solution/debug/obj/" />
+				<Option external_deps="solution/debug/libraries/SDL2.dll;solution/debug/libraries/SDL2_image.dll;" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-std=c++14" />
 					<Add option="-g" />
 					<Add directory="../SDL2-devel-2.0.9-mingw/SDL2-2.0.9/i686-w64-mingw32/include/SDL2" />
 					<Add directory="../i686-w64-mingw32/include/SDL2" />
@@ -24,8 +27,9 @@
 				</Linker>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/SDL" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Release/" />
+				<Option output="solution/release/SDL" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../sources" />
+				<Option object_output="solution/release/obj" />
 				<Option external_deps="SDL2.dll;" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -39,30 +43,38 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-std=c++14" />
 		</Compiler>
-		<Unit filename="SDL2.dll" />
-		<Unit filename="SDL2_image.dll" />
-		<Unit filename="assets/celes_sprite.png" />
-		<Unit filename="assets/chrono.png" />
-		<Unit filename="assets/mario_one.jpg" />
-		<Unit filename="assets/megaman.png" />
-		<Unit filename="assets/tiles/water.png" />
-		<Unit filename="include/Components.h" />
-		<Unit filename="include/ECS.h" />
-		<Unit filename="include/Game.h" />
-		<Unit filename="include/GameObject.h" />
-		<Unit filename="include/TextureManager.h" />
-		<Unit filename="include/TileMap.h" />
-		<Unit filename="libjpeg-9.dll" />
-		<Unit filename="libpng16-16.dll" />
-		<Unit filename="libtiff-5.dll" />
-		<Unit filename="libwebp-7.dll" />
-		<Unit filename="src/Game.cpp" />
-		<Unit filename="src/GameObject.cpp" />
-		<Unit filename="src/TextureManager.cpp" />
-		<Unit filename="src/TileMap.cpp" />
-		<Unit filename="src/main.cpp" />
-		<Unit filename="zlib1.dll" />
+		<Unit filename="entity-component-system/SystemManager.cpp" />
+		<Unit filename="entity-component-system/SystemManager.h" />
+		<Unit filename="entity-component-system/components/include/Component.h" />
+		<Unit filename="entity-component-system/components/include/PositionComponent.h" />
+		<Unit filename="entity-component-system/components/src/PositionComponent.cpp" />
+		<Unit filename="entity-component-system/entities/include/Entity.h" />
+		<Unit filename="entity-component-system/entities/src/Entity.cpp" />
+		<Unit filename="game/include/Game.h" />
+		<Unit filename="game/include/GameObject.h" />
+		<Unit filename="game/include/TextureManager.h" />
+		<Unit filename="game/include/TileMap.h" />
+		<Unit filename="game/src/Game.cpp" />
+		<Unit filename="game/src/GameObject.cpp" />
+		<Unit filename="game/src/TextureManager.cpp" />
+		<Unit filename="game/src/TileMap.cpp" />
+		<Unit filename="game/src/main.cpp" />
+		<Unit filename="resources/assets/celes_sprite.png" />
+		<Unit filename="resources/assets/chrono.png" />
+		<Unit filename="resources/assets/mario_one.jpg" />
+		<Unit filename="resources/assets/megaman.png" />
+		<Unit filename="resources/assets/tiles/grass.png" />
+		<Unit filename="resources/assets/tiles/sand.png" />
+		<Unit filename="resources/assets/tiles/water.png" />
+		<Unit filename="solution/debug/SDL2.dll" />
+		<Unit filename="solution/debug/SDL2_image.dll" />
+		<Unit filename="solution/debug/libjpeg-9.dll" />
+		<Unit filename="solution/debug/libpng16-16.dll" />
+		<Unit filename="solution/debug/libtiff-5.dll" />
+		<Unit filename="solution/debug/libwebp-7.dll" />
+		<Unit filename="solution/debug/zlib1.dll" />
 		<Extensions>
 			<code_completion />
 			<envvars />

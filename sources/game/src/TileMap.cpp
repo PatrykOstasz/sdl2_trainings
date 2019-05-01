@@ -27,9 +27,9 @@ static int level1[20][25] = {
 
 TileMap::TileMap(unsigned width, unsigned height) : mGrassTexture(nullptr), mWaterTexture(nullptr),
     mSandTexture(nullptr), mWidth(width), mHeight(height) {
-        mGrassTexture = TextureManager::LoadTexture("assets/tiles/grass.png");
-        mWaterTexture = TextureManager::LoadTexture("assets/tiles/water.png");
-        mSandTexture = TextureManager::LoadTexture("assets/tiles/sand.png");
+        mGrassTexture = TextureManager::LoadTexture("resources/assets/tiles/grass.png");
+        mWaterTexture = TextureManager::LoadTexture("resources/assets/tiles/water.png");
+        mSandTexture = TextureManager::LoadTexture("resources/assets/tiles/sand.png");
 
         load(level1);
 

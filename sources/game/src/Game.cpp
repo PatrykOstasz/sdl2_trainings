@@ -69,6 +69,6 @@ bool Game::running() {
 }
 
 void Game::initScene() {
-    player = new GameObject("assets/megaman.png", 20, 20);
+    player = new GameObject("resources/assets/megaman.png", 20, 20);
     tileMap = new TileMap(20, 25);
 }
