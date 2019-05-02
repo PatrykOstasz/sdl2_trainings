@@ -5,12 +5,12 @@ class Entity;
 
 class Component {
 public:
-    Entity* entity;
+    Entity* entity = nullptr;
     virtual void init() = 0;
     virtual void update() = 0;
     virtual void draw() = 0;
 
-    virtual ~Component();
+    virtual ~Component() {}
 };
 
 #endif // COMPONENT_H

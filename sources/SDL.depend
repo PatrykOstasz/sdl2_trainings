@@ -723,7 +723,7 @@
 	"SDL.h"
 	"SDL_image.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -756,12 +756,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_main.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -790,34 +790,34 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_config.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_config.h
 	"SDL_platform.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_platform.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\begin_code.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\begin_code.h
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\close_code.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\close_code.h
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_assert.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
 	<mbarrier.h>
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_audio.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -827,24 +827,24 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_error.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_endian.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_thread.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -855,18 +855,18 @@
 	<stdlib.h>
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -881,7 +881,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_events.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -895,7 +895,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_video.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -903,13 +903,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_pixels.h
 	"SDL_stdinc.h"
 	"SDL_endian.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rect.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -917,7 +917,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_surface.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -926,11 +926,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -938,27 +938,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -966,11 +966,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_quit.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -978,66 +978,66 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_touch.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_hints.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_log.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_power.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_render.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_sensor.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_shape.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_shape.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -1046,7 +1046,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_system.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -1054,18 +1054,18 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_timer.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540998544 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_version.h
+1541002144 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sdl2-devel-2.0.9-mingw\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540997982 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\i686-w64-mingw32\include\sdl2\sdl_image.h
+1541001582 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\i686-w64-mingw32\include\sdl2\sdl_image.h
 	"SDL.h"
 	"SDL_version.h"
 	"begin_code.h"
@@ -1214,4 +1214,73 @@
 	<memory>
 	<vector>
 	"../../components/include/Component.h"
+
+1556809652 source:c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\entity-component-system\components\src\positioncomponent.cpp
+	"../include/PositionComponent.h"
+
+1556809586 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\entity-component-system\components\include\positioncomponent.h
+	"Component.h"
+
+1556808337 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\entity-component-system\components\include\component.h
+
+1556794679 source:c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\entity-component-system\entities\src\entity.cpp
+	"../include/Entity.h"
+
+1556795074 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\entity-component-system\entities\include\entity.h
+	<array>
+	<bitset>
+	<memory>
+	<vector>
+	"../../components/include/Component.h"
+
+1556809336 source:c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\entity-component-system\systemmanager.cpp
+	"SystemManager.h"
+	<algorithm>
+	"entities/include/Entity.h"
+
+1556809834 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\entity-component-system\systemmanager.h
+	<memory>
+	<vector>
+	"entities/include/Entity.h"
+
+1556809540 source:c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\game\src\game.cpp
+	"../include/Game.h"
+	<iostream>
+	"../include/TileMap.h"
+	"../../entity-component-system/entities/include/Entity.h"
+	"../../entity-component-system/components/include/PositionComponent.h"
+	"../../entity-component-system/components/include/SpriteComponent.h"
+
+1556808865 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\game\include\game.h
+	"SDL.h"
+	"SDL_image.h"
+	"../../entity-component-system/SystemManager.h"
+
+1556791292 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\game\include\tilemap.h
+	"SDL_rect.h"
+
+1556791292 source:c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\game\src\main.cpp
+	"../include/Game.h"
+	<stdint.h>
+
+1556791292 source:c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\game\src\texturemanager.cpp
+	"../include/TextureManager.h"
+	"../include/Game.h"
+
+1556791292 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\game\include\texturemanager.h
+	"SDL_rect.h"
+
+1556791292 source:c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\game\src\tilemap.cpp
+	"../include/TileMap.h"
+	"../include/TextureManager.h"
+
+1556808361 source:c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\entity-component-system\components\src\spritecomponent.cpp
+	"../include/SpriteComponent.h"
+	"../include/PositionComponent.h"
+	"../../entities/include/Entity.h"
+	"../../../game/include/TextureManager.h"
+
+1556804746 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\entity-component-system\components\include\spritecomponent.h
+	"Component.h"
+	"SDL_rect.h"
 

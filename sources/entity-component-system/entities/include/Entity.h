@@ -31,7 +31,7 @@ public:
     bool isActive() const;
     void update();
     void destroy();
-    void draw() {}
+    void draw();
 
     template <typename T> ComponentID getComponentTypeId() noexcept;
     template <typename T> bool hasComponent() const;

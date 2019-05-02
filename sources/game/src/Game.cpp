@@ -1,9 +1,10 @@
 #include "../include/Game.h"
 
 #include <iostream>
-
-#include "../include/GameObject.h"
 #include "../include/TileMap.h"
+#include "../../entity-component-system/entities/include/Entity.h"
+#include "../../entity-component-system/components/include/PositionComponent.h"
+#include "../../entity-component-system/components/include/SpriteComponent.h"
 
 SDL_Renderer* Game::renderer = nullptr;
 
@@ -34,7 +35,10 @@ void Game::init(const char* title, int x, int y, int width, int height, bool ful
 	} else {
 		isRunning = false;
 	}
-
+	playerEntity = &manager.addEntity();
+	playerEntity->addComponent<PositionComponent>();
+	playerEntity->addComponent<SpriteComponent>("../../resources/assets/megaman.png");
+	playerEntity->getComponent<PositionComponent>().setPosition(10,10);
 	initScene();
 }
 void Game::handleEvents() {
@@ -48,17 +52,18 @@ void Game::handleEvents() {
 		break;
 	}
 }
+
 void Game::update() {
-    player->update();
+    manager.refresh();
+    manager.update();
 }
+
 void Game::render() {
 	SDL_RenderClear(renderer);
 	tileMap->draw();
-	player->render();
 	SDL_RenderPresent(renderer);
 }
 void Game::clean() {
-    delete player;
 	SDL_DestroyWindow(window);
 	SDL_DestroyRenderer(renderer);
 	SDL_Quit();
@@ -69,6 +74,5 @@ bool Game::running() {
 }
 
 void Game::initScene() {
-    player = new GameObject("resources/assets/megaman.png", 20, 20);
     tileMap = new TileMap(20, 25);
 }

@@ -1,8 +1,6 @@
 #include "SystemManager.h"
 
 #include<algorithm>
-#include "entities/include/Entity.h"
-
 
 void SystemManager::update() {
     for (auto& e : mEntities) e->update();
@@ -21,8 +19,10 @@ void SystemManager::refresh() {
                             ), end(mEntities));
 }
 
-void SystemManager::addEntity() {
+Entity& SystemManager::addEntity() {
+    Entity* e = new Entity();
     using std::unique_ptr;
-    unique_ptr<Entity> uPtr(new Entity());
+    unique_ptr<Entity> uPtr(e);
     mEntities.emplace_back(std::move(uPtr));
+    return *e;
 }

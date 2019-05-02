@@ -2,6 +2,9 @@
 
 void Entity::update() {
     for (auto& c : mComponents) c->update();
+}
+
+void Entity::draw() {
     for (auto& c : mComponents) c->draw();
 }
 

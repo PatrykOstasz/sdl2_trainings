@@ -3,8 +3,9 @@
 
 #include "SDL.h"
 #include "SDL_image.h"
+#include "../../entity-component-system/SystemManager.h"
 
-class GameObject;
+class Entity;
 class TileMap;
 
 class Game {
@@ -22,10 +23,10 @@ private:
 
 	bool isRunning;
 	SDL_Window* window;
-
 	static SDL_Renderer* renderer;
-	GameObject* player;
 	TileMap* tileMap;
+	Entity* playerEntity;
+	SystemManager manager;
 };
 
 #endif GAME_H_

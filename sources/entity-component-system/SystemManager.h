@@ -1,12 +1,9 @@
 #ifndef ECS_H_INCLUDED
 #define ECS_H_INCLUDED
 
-#include <algorithm>
-#include <array>
-#include <bitset>
-//#include <iostream>
 #include <memory>
 #include <vector>
+#include "entities/include/Entity.h"
 
 using std::unique_ptr;
 using std::vector;
@@ -21,6 +18,6 @@ public:
     void update();
     void draw();
     void refresh();
-    void addEntity();
+    Entity& addEntity();
 };
 #endif // ECS_H_INCLUDED
