@@ -1132,20 +1132,26 @@
 	"../include/GameObject.h"
 	"../include/TileMap.h"
 
-1556722264 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\game.cpp
+1557269239 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\game.cpp
 	"../include/Game.h"
 	<iostream>
-	"../include/GameObject.h"
 	"../include/TileMap.h"
+	"../../entity-component-system/components/include/TransformComponent.h"
+	"../../entity-component-system/components/include/SpriteComponent.h"
+	"../../entity-component-system/components/include/KeyboardControllerComponent.h"
+	"../../entity-component-system/components/include/ColliderComponent.h"
+	"entities/include/Entity.h"
+	"../../physics/include/Collision.h"
 
-1556583405 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\include\game.h
+1557166475 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\include\game.h
 	"SDL.h"
 	"SDL_image.h"
+	"../../entity-component-system/SystemManager.h"
 
 1552175574 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\include\gameobject.h
 	"SDL_rect.h"
 
-1552177075 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\include\tilemap.h
+1557152575 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\include\tilemap.h
 	"SDL_rect.h"
 
 1552178180 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\gameobject.cpp
@@ -1156,7 +1162,7 @@
 1552177533 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\include\texturemanager.h
 	"SDL_rect.h"
 
-1556730131 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\main.cpp
+1557149886 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\main.cpp
 	"../include/Game.h"
 	<stdint.h>
 
@@ -1164,9 +1170,10 @@
 	"../include/TextureManager.h"
 	"../include/Game.h"
 
-1556722191 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\tilemap.cpp
+1557152668 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\tilemap.cpp
 	"../include/TileMap.h"
 	"../include/TextureManager.h"
+	"SDL.h"
 
 1556738069 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\src\positioncomponent.cpp
 	"../include/PositionComponent.h"
@@ -1181,34 +1188,31 @@
 	<memory>
 	<vector>
 
-1556738069 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\positioncomponent.cpp
+1556835525 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\positioncomponent.cpp
 	"../include/PositionComponent.h"
 
-1556745914 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\positioncomponent.h
+1556832171 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\positioncomponent.h
 	"Component.h"
 
-1556749801 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\component.h
+1556831869 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\component.h
 
 1556745917 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\component.cpp
 	"Component.h"
 
-1556747764 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\entities\src\entity.cpp
-	"Entity.h"
-	"../../components/include/Component.h"
+1557165065 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\entities\src\entity.cpp
+	"../include/Entity.h"
+	<iostream>
 
-1556749327 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\systemmanager.cpp
+1557165142 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\systemmanager.cpp
 	"SystemManager.h"
 	<algorithm>
 	"entities/include/Entity.h"
 
-1556748760 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\systemmanager.h
-	<algorithm>
-	<array>
-	<bitset>
+1557165157 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\systemmanager.h
 	<memory>
 	<vector>
 
-1556749591 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\entities\include\entity.h
+1557165062 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\entities\include\entity.h
 	<array>
 	<bitset>
 	<memory>
@@ -1283,4 +1287,65 @@
 1556804746 c:\users\patryk.ostasz\documents\projekty\sdl2_trainings\sources\entity-component-system\components\include\spritecomponent.h
 	"Component.h"
 	"SDL_rect.h"
+
+1557269429 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\spritecomponent.cpp
+	"../include/SpriteComponent.h"
+	"../include/TransformComponent.h"
+	"../../entities/include/Entity.h"
+	"../../../game/include/TextureManager.h"
+	"SDL.h"
+	<iostream>
+
+1557266924 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\spritecomponent.h
+	"Component.h"
+	"SDL_rect.h"
+
+1557267173 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\transformcomponent.h
+	"Component.h"
+	"../../../game/include/Vector2d.h"
+
+1557268610 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\transformcomponent.cpp
+	"../include/TransformComponent.h"
+
+1557150194 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\vector2d.cpp
+	"../include/Vector2d.h"
+	<iostream>
+
+1557165760 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\include\vector2d.h
+	<ostream>
+
+1557004343 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\keyboardcontroller.cpp
+	"KeyboardController.h"
+
+1557004019 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\keyboardcontroller.h
+	"../game/include/Game.h"
+	"components/include/SpriteComponent.h"
+	"components/include/TransformComponent.h"
+
+1557165670 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\keyboardcontrollercomponent.cpp
+	"../include/KeyboardControllerComponent.h"
+	"../../entities/include/Entity.h"
+	"../include/TransformComponent.h"
+	"../include/SpriteComponent.h"
+	"../../../game/include/Game.h"
+
+1557165455 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\keyboardcontrollercomponent.h
+	"Component.h"
+
+1557268370 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\collidercomponent.cpp
+	"../include/ColliderComponent.h"
+	"../../entities/include/Entity.h"
+	"../include/TransformComponent.h"
+	"../include/SpriteComponent.h"
+
+1557269059 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\collidercomponent.h
+	<string>
+	"SDL_rect.h"
+	"Component.h"
+
+1557166317 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\physics\src\collision.cpp
+	"Collision.h"
+	"SDL_rect.h"
+
+1557163600 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\physics\include\collision.h
 

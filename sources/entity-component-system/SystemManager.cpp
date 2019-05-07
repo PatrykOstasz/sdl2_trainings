@@ -1,7 +1,11 @@
 #include "SystemManager.h"
 
 #include<algorithm>
+#include "entities/include/Entity.h"
 
+
+SystemManager::SystemManager() {}
+SystemManager::~SystemManager() {}
 void SystemManager::update() {
     for (auto& e : mEntities) e->update();
 }

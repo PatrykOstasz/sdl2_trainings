@@ -12,6 +12,7 @@ class Game {
 public:
 	void init(const char* title, int x, int y, int width, int height, bool fullscreen);
 	void handleEvents();
+	static SDL_Event getEventHandle() {return event;}
 	void update();
 	void render();
 	void clean();
@@ -26,7 +27,8 @@ private:
 	static SDL_Renderer* renderer;
 	TileMap* tileMap;
 	Entity* playerEntity;
+	Entity* wallEntity;
 	SystemManager manager;
+    static SDL_Event event;
 };
-
 #endif GAME_H_

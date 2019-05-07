@@ -6,9 +6,9 @@ class Entity;
 class Component {
 public:
     Entity* entity = nullptr;
-    virtual void init() = 0;
-    virtual void update() = 0;
-    virtual void draw() = 0;
+    virtual void init() {};
+    virtual void update() {};
+    virtual void draw() {};
 
     virtual ~Component() {}
 };

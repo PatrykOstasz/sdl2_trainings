@@ -11,7 +11,6 @@
 				<Option output="solution/debug/SDL" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="../sources" />
 				<Option object_output="solution/debug/obj/" />
-				<Option external_deps="solution/debug/libraries/SDL2.dll;solution/debug/libraries/SDL2_image.dll;" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -19,6 +18,9 @@
 					<Add option="-g" />
 					<Add directory="../SDL2-devel-2.0.9-mingw/SDL2-2.0.9/i686-w64-mingw32/include/SDL2" />
 					<Add directory="../i686-w64-mingw32/include/SDL2" />
+					<Add directory="entity-component-system" />
+					<Add directory="entity-component-system/components/include" />
+					<Add directory="physics/include" />
 				</Compiler>
 				<Linker>
 					<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image" />
@@ -35,6 +37,9 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="entity-component-system" />
+					<Add directory="entity-component-system/components/include" />
+					<Add directory="physics/include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -47,20 +52,28 @@
 		</Compiler>
 		<Unit filename="entity-component-system/SystemManager.cpp" />
 		<Unit filename="entity-component-system/SystemManager.h" />
+		<Unit filename="entity-component-system/components/include/ColliderComponent.h" />
 		<Unit filename="entity-component-system/components/include/Component.h" />
-		<Unit filename="entity-component-system/components/include/PositionComponent.h" />
-		<Unit filename="entity-component-system/components/src/PositionComponent.cpp" />
+		<Unit filename="entity-component-system/components/include/KeyboardControllerComponent.h" />
+		<Unit filename="entity-component-system/components/include/SpriteComponent.h" />
+		<Unit filename="entity-component-system/components/include/TransformComponent.h" />
+		<Unit filename="entity-component-system/components/src/ColliderComponent.cpp" />
+		<Unit filename="entity-component-system/components/src/KeyboardControllerComponent.cpp" />
+		<Unit filename="entity-component-system/components/src/SpriteComponent.cpp" />
+		<Unit filename="entity-component-system/components/src/TransformComponent.cpp" />
 		<Unit filename="entity-component-system/entities/include/Entity.h" />
 		<Unit filename="entity-component-system/entities/src/Entity.cpp" />
 		<Unit filename="game/include/Game.h" />
-		<Unit filename="game/include/GameObject.h" />
 		<Unit filename="game/include/TextureManager.h" />
 		<Unit filename="game/include/TileMap.h" />
+		<Unit filename="game/include/Vector2d.h" />
 		<Unit filename="game/src/Game.cpp" />
-		<Unit filename="game/src/GameObject.cpp" />
 		<Unit filename="game/src/TextureManager.cpp" />
 		<Unit filename="game/src/TileMap.cpp" />
+		<Unit filename="game/src/Vector2d.cpp" />
 		<Unit filename="game/src/main.cpp" />
+		<Unit filename="physics/include/Collision.h" />
+		<Unit filename="physics/src/Collision.cpp" />
 		<Unit filename="resources/assets/celes_sprite.png" />
 		<Unit filename="resources/assets/chrono.png" />
 		<Unit filename="resources/assets/mario_one.jpg" />

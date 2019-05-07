@@ -9,6 +9,7 @@ class TileMap {
 public:
     TileMap(unsigned width, unsigned height);
     void draw();
+    ~TileMap();
 private:
     void load(int arr[20][25]);
 
