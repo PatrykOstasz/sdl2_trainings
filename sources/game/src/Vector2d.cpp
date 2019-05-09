@@ -1,37 +1,37 @@
 #include "../include/Vector2d.h"
 #include <iostream>
 
-Vector2D::Vector2D() : mX(0.0), mY(0.0) {
+Vector2D::Vector2D() : x(0.0f), y(0.0f) {
 }
 
-Vector2D::Vector2D(float x, float y) : mX(x), mY(y) {
+Vector2D::Vector2D(float xi, float yi) : x(xi), y(yi) {
 }
 
 Vector2D& Vector2D::add(const Vector2D& vec) {
-    mX += vec.mX;
-    mY += vec.mY;
+    x += vec.x;
+    y += vec.y;
     return *this;
 }
 
 Vector2D& Vector2D::substract(const Vector2D& vec) {
-    mX -= vec.mX;
-    mY -= vec.mY;
+    x -= vec.x;
+    y -= vec.y;
     return *this;
 }
 
 Vector2D& Vector2D::multiply(const Vector2D& vec) {
-    mX *= vec.mX;
-    mY *= vec.mY;
+    x *= vec.x;
+    y *= vec.y;
     return *this;
 }
 
 Vector2D& Vector2D::divide(const Vector2D& vec) {
-    if (vec.mX == 0.0 or vec.mY == 0) {
+    if (vec.x == 0.0 or vec.y == 0.0) {
         std::cerr << "Division by zero error. Operation not allowed\n";
         return *this;
     }
-    mX /= vec.mX;
-    mY /= vec.mY;
+    x /= vec.x;
+    y /= vec.y;
     return *this;
 }
 
@@ -67,14 +67,20 @@ Vector2D& Vector2D::operator/=(const Vector2D& vec) {
     return this->divide(vec);
 }
 
-float Vector2D::getX() const {
-    return mX;
+Vector2D& Vector2D::operator*(const int& scalar) {
+    this->x *= scalar;
+    this->y *= scalar;
+
+    return *this;
 }
 
-float Vector2D::getY() const {
-    return mY;
+Vector2D& Vector2D::zero() {
+    this->x = 0.0f;
+    this->y = 0.0f;
+
+    return *this;
 }
 
 std::ostream& operator<<(std::ostream& os, const Vector2D& vec) {
-    return os << "Vec2D(" << vec.getX() << "," << vec.getY() << ")" << std::endl;
+    return os << "Vec2D(" << vec.x << "," << vec.y << ")" << std::endl;
 }

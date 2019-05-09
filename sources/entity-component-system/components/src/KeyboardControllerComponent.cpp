@@ -5,23 +5,23 @@
 #include "../../../game/include/Game.h"
 
 void KeyboardControllerComponent::init() {
-    transform = &entity->getComponent<TransformComponent>();
+    mTransform = &entity->getComponent<TransformComponent>();
 }
 
 void KeyboardControllerComponent::update() {
     if (Game::getEventHandle().type == SDL_KEYDOWN) {
         switch (Game::getEventHandle().key.keysym.sym) {
         case SDLK_UP:
-            transform->setVelocity(0,-1);
+            mTransform->velocity.y = -1;
             break;
         case SDLK_DOWN:
-            transform->setVelocity(0,1);
+            mTransform->velocity.y = 1;
             break;
         case SDLK_LEFT:
-            transform->setVelocity(-1,0);
+            mTransform->velocity.x = -1;
             break;
         case SDLK_RIGHT:
-            transform->setVelocity(1,0);
+            mTransform->velocity.x = 1;
             break;
         }
     }
@@ -29,16 +29,16 @@ void KeyboardControllerComponent::update() {
     if (Game::getEventHandle().type == SDL_KEYUP) {
         switch (Game::getEventHandle().key.keysym.sym) {
         case SDLK_UP:
-            transform->setVelocity(0,0);
+            mTransform->velocity.y = 0;
             break;
         case SDLK_DOWN:
-            transform->setVelocity(0,0);
+            mTransform->velocity.y = 0;
             break;
         case SDLK_LEFT:
-            transform->setVelocity(0,0);
+            mTransform->velocity.x = 0;
             break;
         case SDLK_RIGHT:
-            transform->setVelocity(0,0);
+            mTransform->velocity.x = 0;
             break;
         }
     }

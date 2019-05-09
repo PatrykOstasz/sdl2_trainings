@@ -4,16 +4,9 @@
 #include <ostream>
 
 class Vector2D {
-private:
-    float mX;
-    float mY;
 public:
     Vector2D();
     Vector2D(float x, float y);
-    float getX() const;
-    float getY() const;
-    void setX(float newX) {mX = newX;}
-    void setY(float newY) {mY = newY;}
     Vector2D& add(const Vector2D& vec);
     Vector2D& substract(const Vector2D& vec);
     Vector2D& multiply(const Vector2D& vec);
@@ -29,6 +22,12 @@ public:
     Vector2D& operator-=(const Vector2D& vec);
     Vector2D& operator*=(const Vector2D& vec);
     Vector2D& operator/=(const Vector2D& vec);
+    Vector2D& operator*(const int& scalar);
+
+    Vector2D& zero();
+
+    float x;
+    float y;
 
 };
 

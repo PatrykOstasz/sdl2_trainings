@@ -7,7 +7,7 @@ class TransformComponent;
 
 class KeyboardControllerComponent : public Component {
 private:
-    TransformComponent* transform;
+    TransformComponent* mTransform;
 
 public:
     virtual void init() override;

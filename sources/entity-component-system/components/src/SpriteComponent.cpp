@@ -19,15 +19,15 @@ void SpriteComponent::init() {
     mSrcRect.x = 0, mSrcRect.y = 0;
     mSrcRect.w = 48;
     mSrcRect.h = 72;
-    mDstRect.w = mTransform->getWidth()*mTransform->getScale();
-    mDstRect.h = mTransform->getHeight()*mTransform->getScale();
+    mDstRect.w = mTransform->width*mTransform->scale;
+    mDstRect.h = mTransform->height*mTransform->scale;
 }
 
 void SpriteComponent::update() {
-    mDstRect.x = mTransform->getPosition().getX();
-    mDstRect.y = mTransform->getPosition().getY();
-    mDstRect.w = mTransform->getWidth()*mTransform->getScale();
-    mDstRect.h = mTransform->getHeight()*mTransform->getScale();
+    mDstRect.x = static_cast<int>(mTransform->position.x);
+    mDstRect.y = static_cast<int>(mTransform->position.y);
+    mDstRect.w = mTransform->width*mTransform->scale;
+    mDstRect.h = mTransform->height*mTransform->scale;
 }
 
 void SpriteComponent::draw() {

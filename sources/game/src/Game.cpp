@@ -70,8 +70,8 @@ void Game::update() {
 
     if (Collision::AABB(playerEntity->getComponent<ColliderComponent>().getCollider(),
                         wallEntity->getComponent<ColliderComponent>().getCollider())) {
-        playerEntity->getComponent<TransformComponent>().setScale(1);
-                        }
+        playerEntity->getComponent<TransformComponent>().velocity * -1;
+        }
 }
 
 void Game::render() {

@@ -9,13 +9,13 @@ class TransformComponent;
 
 class ColliderComponent : public Component {
 private:
-    SDL_Rect collider;
-    std::string tag;
-    TransformComponent* transform;
+    SDL_Rect mCollider;
+    std::string mTag;
+    TransformComponent* mTransform;
 
 public:
-    SDL_Rect getCollider() const {return collider; }
-    ColliderComponent(const std::string & nTag);
+    SDL_Rect getCollider() const {return mCollider; }
+    ColliderComponent(const std::string& tag);
     virtual void init() override;
     virtual void update() override;
 };

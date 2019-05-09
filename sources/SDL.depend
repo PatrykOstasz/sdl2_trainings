@@ -1132,7 +1132,7 @@
 	"../include/GameObject.h"
 	"../include/TileMap.h"
 
-1557269239 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\game.cpp
+1557432739 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\game.cpp
 	"../include/Game.h"
 	<iostream>
 	"../include/TileMap.h"
@@ -1288,7 +1288,7 @@
 	"Component.h"
 	"SDL_rect.h"
 
-1557269429 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\spritecomponent.cpp
+1557432508 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\spritecomponent.cpp
 	"../include/SpriteComponent.h"
 	"../include/TransformComponent.h"
 	"../../entities/include/Entity.h"
@@ -1300,18 +1300,18 @@
 	"Component.h"
 	"SDL_rect.h"
 
-1557267173 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\transformcomponent.h
+1557432326 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\transformcomponent.h
 	"Component.h"
 	"../../../game/include/Vector2d.h"
 
-1557268610 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\transformcomponent.cpp
+1557430621 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\transformcomponent.cpp
 	"../include/TransformComponent.h"
 
-1557150194 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\vector2d.cpp
+1557430191 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\src\vector2d.cpp
 	"../include/Vector2d.h"
 	<iostream>
 
-1557165760 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\include\vector2d.h
+1557429973 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\game\include\vector2d.h
 	<ostream>
 
 1557004343 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\keyboardcontroller.cpp
@@ -1322,23 +1322,23 @@
 	"components/include/SpriteComponent.h"
 	"components/include/TransformComponent.h"
 
-1557165670 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\keyboardcontrollercomponent.cpp
+1557432726 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\keyboardcontrollercomponent.cpp
 	"../include/KeyboardControllerComponent.h"
 	"../../entities/include/Entity.h"
 	"../include/TransformComponent.h"
 	"../include/SpriteComponent.h"
 	"../../../game/include/Game.h"
 
-1557165455 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\keyboardcontrollercomponent.h
+1557432657 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\keyboardcontrollercomponent.h
 	"Component.h"
 
-1557268370 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\collidercomponent.cpp
+1557432794 source:d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\src\collidercomponent.cpp
 	"../include/ColliderComponent.h"
 	"../../entities/include/Entity.h"
 	"../include/TransformComponent.h"
 	"../include/SpriteComponent.h"
 
-1557269059 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\collidercomponent.h
+1557432645 d:\patryk\moje dokumenty\trainings-tutorials\sdl\sources\entity-component-system\components\include\collidercomponent.h
 	<string>
 	"SDL_rect.h"
 	"Component.h"

@@ -7,15 +7,15 @@ void ColliderComponent::init() {
     if (!entity->hasComponent<TransformComponent>()) {
         entity->addComponent<TransformComponent>();
     }
-    transform = &entity->getComponent<TransformComponent>();
+    mTransform = &entity->getComponent<TransformComponent>();
 }
 
 void ColliderComponent::update() {
-    collider.x = transform->getPosition().getX();
-    collider.y = transform->getPosition().getY();
-    collider.w = transform->getWidth()*transform->getScale();
-    collider.h = transform->getHeight()*transform->getScale();
+    mCollider.x = static_cast<int>(mTransform->position.x);
+    mCollider.y = static_cast<int>(mTransform->position.y);
+    mCollider.w = mTransform->width*mTransform->scale;
+    mCollider.h = mTransform->height*mTransform->scale;
 }
 
-ColliderComponent::ColliderComponent(const std::string & nTag) : tag(nTag) {
+ColliderComponent::ColliderComponent(const std::string & tag) : mTag(tag) {
 }
